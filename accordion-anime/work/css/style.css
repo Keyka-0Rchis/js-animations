@@ -29,6 +29,9 @@ ul {
   transition: height 0.5s ease 0s, padding 0.5s ease 0s;
   margin: 0 0 10px 0;
 }
+/*.list .list-item .activate {
+  height: max-content;
+}残念！max-contentはtransitionできないっぽい！jsで高さを設定作戦に*/
 
 .list .list-item .list-content .list-txt {
   padding: 1rem;
